@@ -4,12 +4,12 @@ import { Quote } from "lucide-react"
 
 const testimonials = [
   {
-    name: "Mahmoud A.",
-    role: "Founder, Optix Media",
+    name: "Omar T.",
+    role: "Startup Founder",
     quote: "يا ابني الشغل معاك فرق معانا جداً. الحملات بقت بتجيب نتائج حقيقية ومش مجرد أرقام على الفاضي، والأهم إن الـ 3D اللي بتعمله بينقل البراند في حتة تانية خالص.",
   },
   {
-    name: "Ahmed Abdelbary",
+    name: "Abdelbary",
     role: "Abdelbary Photography",
     quote: "من أحسن الناس اللي مسكت لي الماركتنج. فاهم كويس إزاي يستهدف العميل الصح، والمبيعات عندي زادت بشكل ملحوظ من أول شهر شغل بينا. تسلم إيدك يا أحمد.",
   },

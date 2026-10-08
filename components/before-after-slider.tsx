@@ -65,14 +65,13 @@ export function BeforeAfterSlider({ beforeImage, afterImage, alt }: BeforeAfterS
       
       {/* Before Image (Foreground, Clipped) */}
       <div 
-        className="absolute inset-0 overflow-hidden"
-        style={{ width: `${sliderPosition}%` }}
+        className="absolute inset-0"
+        style={{ clipPath: `polygon(0 0, ${sliderPosition}% 0, ${sliderPosition}% 100%, 0 100%)` }}
       >
         <img 
           src={beforeImage} 
           alt={`Before ${alt}`} 
-          className="absolute inset-0 h-full w-full max-w-none object-cover"
-          style={{ width: "100vw", maxWidth: containerRef.current?.offsetWidth || "100%" }}
+          className="absolute inset-0 h-full w-full object-cover"
           draggable={false}
         />
       </div>

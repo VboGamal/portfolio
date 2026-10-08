@@ -87,7 +87,7 @@ export function BeforeAfterSlider({ beforeImage, afterImage, alt }: BeforeAfterS
       </div>
 
       {/* Labels */}
-      <div className="absolute left-4 top-4 bg-background/80 px-2 py-1 text-[10px] font-black uppercase tracking-widest backdrop-blur-md">
+      <div className="absolute left-4 top-4 bg-background/80 px-2 py-1 text-[10px] font-black uppercase tracking-widest text-foreground backdrop-blur-md">
         Before
       </div>
       <div className="absolute right-4 top-4 bg-primary px-2 py-1 text-[10px] font-black uppercase tracking-widest text-primary-foreground">

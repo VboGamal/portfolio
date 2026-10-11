@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { ThemeProvider } from '@/components/theme-provider'
+import { GoogleAnalytics } from '@/components/analytics'
 
 export const metadata: Metadata = {
   title: 'Ahmad Gamal Eldin — Digital Marketing Strategist',
@@ -19,6 +20,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
           {children}
         </ThemeProvider>
+        <GoogleAnalytics />
       </body>
     </html>
   )
